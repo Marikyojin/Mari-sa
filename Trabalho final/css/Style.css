@@ -10,13 +10,6 @@ body {
     padding: 0;
     margin: 0;
 }
-.box{
-    margin: 30px;
-    width: 100vw;
-    height: 100vh;
-    border: 1px solid #6A00FF;
-    background: linear-gradient(#E1D5E7,#A680B8);
-}
 .container{
     display: flex;
     align-items: center;
@@ -25,9 +18,11 @@ body {
     width: 90%;
     height: 90%;
     padding: 3%;
-}
-.redes-sociais{
-
+    margin: 30px;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #6A00FF;
+    background: linear-gradient(#E1D5E7,#A680B8);
 }
 .titulo{
     border: 1px solid #6A00FF;
@@ -61,7 +56,6 @@ body {
     border: 0;
     margin: 10px;
     font-size:small ;
-    /* max-height:150px; */
 }
 .grupo2,.grupo3{
     display: flex;
@@ -116,7 +110,6 @@ body {
 .yt img{
     width: 55px ;
     height: 35px;
-    /* margin-right: 13px; */
 }
 .tw img{
     width: 30px ;
