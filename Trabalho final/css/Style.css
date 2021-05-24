@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Quicksand', Courier, monospace;
+    color: white;
+    font-size: medium;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    margin: 30px;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #6A00FF;
+    background: linear-gradient(#E1D5E7,#A680B8);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    padding: 3%;
+}
+.redes-sociais{
+
+}
+.titulo{
+    border: 1px solid #6A00FF;
+    justify-content: flex-start;
+    font-size: larger;
+   
+}
+.feras{
+    justify-self: flex-end;
+    color: red;
+    border: 0;
+}
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    background:#6A00FF;
+    color: #A680B8;
+}
+.input{ 
+    padding-right: 10px; 
+    color: #6A00FF;
+}
+.placeholder-custom::placeholder{
+    color: #A680B8;
+}
+.texto{
+    width: 100%;
+    background: #6A00FF;
+    border: 0;
+    margin: 10px;
+    font-size:small ;
+    /* max-height:150px; */
+}
+.grupo2,.grupo3{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+.grupo2 .texto{
+    margin-right: 40px;
+}
+.grupo3 .texto{
+    margin-left: 40px;
+}
+.grupo3{
+    flex-direction: row-reverse;
+}
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+.btn-outline-primary{
+    background-color: white;
+    border-radius: 100px;
+}
+.insta,.face,.yt,.tw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+.insta img{
+    height: 40px;
+    width: 50px; 
+}
+.face img{
+    width: 45px ;
+    height: 25px;
+}
+.yt img{
+    width: 55px ;
+    height: 35px;
+    /* margin-right: 13px; */
+}
+.tw img{
+    width: 30px ;
+    height: 30px;
+    margin-right: 15px;
+}
+.yt span{
+    margin-right: 15px;
+}
+.tw span{
+    margin-left: 5px ;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
